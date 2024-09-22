@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer type="module" src="order.js"></script>
+    <title>Order</title>
+  </head>
+  <body>
+    <style>
+/* Styles for order page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.div-order-detils {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.item:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.item h1 {
+    margin: 0;
+    color: #333;
+}
+
+.item h2 {
+    margin: 0;
+    color: #007bff;
+}
+
+.div-bill {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div-bill .bill {
+    background-color: #f5f3f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bill h1 {
+    margin: 0 0 10px;
+    color: #2cbe27;
+}
+
+.totalAmt {
+    color: #5ec522;
+}
+
+.btnPlaceOrder {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btnPlaceOrder:hover {
+    background-color: #218838;
+}
+
+.btnPlaceOrder:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+      </style>
+    <div class="div-order-detils">
+      <div class="item">
+        <div class="item-detail">
+          <h1>Burger</h1>
+          <h2>Rs. 45</h2>
+        </div>
+        <div class="item-qty">
+          
+          <h1>2</h1>
+          <h2>Rs. 90</h2>
+        </div>
+      </div>
+    </div>
+    <div class="div-bill">
+      <div class="div-QR">
+        <img
+          class="noon-qr"
+          src="data:image/png;base64,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"
+          alt=""
+        />
+        <input type="checkbox" class="scanned" />
+        <label for="">I scanned the code</label>
+      </div>
+      <div class="bill">
+        <h1>Total: Rs. <span class="totalAmt">233</span></h1>
+        <button class="btnPlaceOrder" disabled>
+          Scan the QR to place order!
+        </button>
+      </div>
+    </div>
+    <script>
+    
+  </script>
+  </body>
+</html>

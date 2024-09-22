@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="menu.css" />
+    <script defer type="module" src="menu.js"></script>
+    <script type="text/javascript" src="menu2.js"></script>
+
+    <title>Order</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Menu</h1>
+      <input
+        type="text"
+        id="searchInput"
+        onchange="search1()"
+        placeholder="Search..."
+      />
+      <div id="menuItems"></div>
+    </div>
+    <div class="div--menu"></div>
+    <div class="text-center">
+      <button class="btnPlaceOrder">Place Order</button>
+    </div>
+
+    <style>
+      .btnPlaceOrder {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #4caf50;
+        /* Green */
+        color: white;
+        transition: background-color 0.3s;
+      }
+
+      /* Button hover effect */
+      .btnPlaceOrder:hover {
+        background-color: #45a049;
+        /* Darker green */
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+    <!-- <div class="input-group">
+  <input type="text" id="search" placeholder="Search..." autocomplete="off">
+  <label for="search"><i class="fas fa-search"></i></label>
+</div>
+
+<div class="suggestion-list hidden">
+</div> -->
+    <!-- <input type="text" id="searchInput" placeholder="Search..." class="form-control"> -->
+  </body>
+</html>

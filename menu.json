@@ -1,0 +1,140 @@
+{
+  "menu": [
+    {
+      "name": "Gulab Jamun",
+      "price": 15
+    },
+    {
+      "name": "Kesar Peda",
+      "price": 20
+    },
+    {
+      "name": "Moti Choor Ladoo",
+      "price": 20
+    },
+    {
+      "name": "Kaju Katli",
+      "price": 25
+    },
+    {
+      "name": "Rasgulla",
+      "price": 20
+    },
+    {
+      "name": "Malai Barfi",
+      "price": 25
+    },
+    {
+      "name": "Jalebi",
+      "price": 30
+    },
+    {
+      "name": "Sohan Papdi",
+      "price": 40
+    },
+    {
+      "name": "Mix Mithai Box",
+      "price": 35
+    },
+    {
+      "name": "Badam Halwa",
+      "price": 30
+    },
+    {
+      "name": "Besan Ladoo",
+      "price": 30
+    },
+    {
+      "name": "Chum Chum",
+      "price": 40
+    },
+    {
+      "name": "Pista Barfi",
+      "price": 15
+    },
+    {
+      "name": "Imarti",
+      "price": 15
+    },
+    {
+      "name": "Dry Fruit Ladoo",
+      "price": 25
+    },
+    {
+      "name": "Khoya Kachori",
+      "price": 15
+    },
+    {
+      "name": "Moong Dal Halwa",
+      "price": 15
+    },
+    {
+      "name": "Coconut Barfi",
+      "price": 20
+    },
+    {
+      "name": "Kalakand",
+      "price": 40
+    },
+    {
+      "name": "Kesar Roll",
+      "price": 50
+    },
+    {
+      "name": "Chocolate Barfi",
+      "price": 60
+    },
+    {
+      "name": "Mawa Sweets",
+      "price": 40
+    },
+    {
+      "name": "Classic Barfi",
+      "price": 60
+    },
+    {
+      "name": "Kesari Peda",
+      "price": 80
+    },
+    {
+      "name": "Pista Roll",
+      "price": 90
+    },
+    {
+      "name": "Anjeer Barfi",
+      "price": 70
+    },
+    {
+      "name": "Saffron Kesar Mithai",
+      "price": 50
+    },
+    {
+      "name": "Dry Fruit Halwa",
+      "price": 30
+    },
+    {
+      "name": "Saffron Biryani (sweet)",
+      "price": 50
+    },
+    {
+      "name": "Cheese Sandesh",
+      "price": 50
+    },
+    {
+      "name": "Mava Sandwich",
+      "price": 40
+    },
+    {
+      "name": "Chilled Lassi",
+      "price": 40
+    },
+    {
+      "name": "Masala Chai",
+      "price": 10
+    },
+    {
+      "name": "Milk Badam Doodh",
+      "price": 15
+    }
+  ]
+}

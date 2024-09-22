@@ -1,0 +1,11 @@
+{
+  "name": "cafe-noon-backend",
+  "version": "1.0.0",
+  "description": "Cafe Noon's backed app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sddhi gri",
+  "license": "ISC"
+}
